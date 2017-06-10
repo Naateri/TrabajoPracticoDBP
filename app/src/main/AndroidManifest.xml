@@ -21,6 +21,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".BooActivity" >
+            <intent-filter >
+                <action android:name="com.nateri.test2.BooActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BarActivity" >
+            <intent-filter >
+                <action android:name="com.nateri.test2.BarActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
